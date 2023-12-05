@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+    --primary: #b6070a;
+    --secondary: #39990c;
+    --light: #8b8b8b;
+}
+html, body{
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+h2{
+    font-size:25px;
+    font-weight: 700;
+
+}
+h1{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    padding: 20px 0;
+    @media (max-width:theme('screens.laptop')){
+        font-size:30px;
+        line-height: 35px;
+    }
+}
